@@ -26,7 +26,7 @@ Where `MongoDB Atlas` was choosen as the database which was cloud hosted on `Goo
 To connect the database with backend, dependencies used are: `moongose`, `cors`, `dotenv` and `express` to use `ExpressJS`.\
 To run the backend server, the dependency `nodemon` was used.\
 To establish connection of our project to database to ru run our `server.js` file inside the `backend` by using the script `nodemon bacend/server`.\
-After that our development server was running at http://localhost:5000\
+After that our development server was running at http://localhost:5000 \
 To fire query to the server,an app `Insomnia` was used. Through this `get` and `post` queries were sent to the database.
 
 ## Frontend
