@@ -23,7 +23,11 @@ This project is a `Full Stack WebApp` made with using the latest tech stack `MER
 ## Backend
 This portion of the project is made by using `NodeJS`.\
 Where `MongoDB Atlas` was choosen as the database which was cloud hosted on `Google Cloud Services`.\
-To connect the database with backend, dependencies used are: `moongose`, `cors`, `dotenv` and `express` to use `ExpressJS`.
+To connect the database with backend, dependencies used are: `moongose`, `cors`, `dotenv` and `express` to use `ExpressJS`.\
+To run the backend server, the dependency `nodemon` was used.\
+To establish connection of our project to database to ru run our `server.js` file inside the `backend` by using the script `nodemon bacend/server`.\
+After that our development server was running at http://localhost:5000\
+To fire query to the server,an app `Insomnia` was used. Through this `get` and `post` queries were sent to the database.
 
 ## Frontend
 
@@ -31,4 +35,5 @@ This portion of this project is made by using `ReactJS`.\
 `Bootstrap` was used for styling.\
 In the `Create Exercise Log` there is a field for the date where the dependency `react-datepicker` was used.\
 To route between different pages, the dependency `react-router-dom` was used, to import the `BrowserRouter`.\
-To connect the frontend with the backend, to get and post queries through our frontend, we used `Axios`.
+To connect the frontend with the backend, to get and post queries through our frontend, we used `Axios`.\
+To start the development server for, run script `npm start` after that any changes made to the code was visible in the http://localhost:3000 which was our development server.
