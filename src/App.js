@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./components/navbar.components"
+import Navbar from "./components/navbar.components";
 import ExercisesList from "./components/exercises-list.components";
 import EditExercise from "./components/edit-exercise.components";
 import CreateExercise from "./components/create-exercise.components";
@@ -13,12 +13,12 @@ function App() {
     <Router>
       <div className="container">
         <Navbar />
-        <br/>
+        <br />
         <Routes>
-        <Route path={"/"} exact element={<ExercisesList />} />
-        <Route path={"/edit/:id"} element={<EditExercise />} />
-        <Route path={"/create"} element={<CreateExercise />} />
-        <Route path={"/user"} element={<CreateUser />} />
+          <Route path={"/"} exact element={<ExercisesList />} />
+          <Route path={"/edit/:id?"} element={<EditExercise />} />
+          <Route path={"/create"} element={<CreateExercise />} />
+          <Route path={"/user"} element={<CreateUser />} />
         </Routes>
       </div>
     </Router>
